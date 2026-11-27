@@ -18,3 +18,6 @@ a.card b { font-size: 1.35rem; color: var(--link, inherit); }
 .hits .src { font: .95rem var(--font-nav); }
 .hits mark { background: var(--hl); padding: 0 1px; }
 .hits .kwic { font-family: "Junicode", Georgia, serif; }
+.ab .cap { font: 600 .82rem var(--font-nav); color: var(--muted); text-transform: uppercase; letter-spacing: .04em; margin: 0 0 2px; }
+.ab.remarks { font-size: 14px; border-top: 1px solid var(--border); padding-top: 4px; }
+#ctab td:nth-last-child(2) { font-size: 14px; }
