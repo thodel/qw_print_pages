@@ -1,0 +1,20 @@
+/* Quellenwerk additions on top of style.css (ea_print/ssrq_print frame) */
+a.card { display: flex; flex-direction: column; gap: 4px; color: inherit; text-decoration: none; }
+a.card:hover { border-left-color: var(--accent); }
+a.card b { font-size: 1.35rem; color: var(--link, inherit); }
+.figures { font: 1.05rem var(--font-nav); }
+.qsearch input, #qform input { font-size: 1.05rem; padding: 6px 10px; min-width: min(28rem, 100%); }
+.qsearch button, #qform button, #qform select { font-size: 1rem; padding: 6px 12px; }
+.qsearch { margin: 14px 0; display: flex; flex-wrap: wrap; gap: 8px; }
+#qform { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 12px 0; }
+#qform select { max-width: 100%; }
+.ab i { font-style: italic; }
+.ab.HEADING { text-align: center; }
+.ab.tradition, .ab.intro { font-size: 15px; }
+.ab.apparatus, .ab.notes { font-size: 14px; border-top: 1px solid var(--border); padding-top: 4px; }
+.ab.other { color: var(--muted); }
+.hits { list-style: none; padding: 0; }
+.hits li { background: var(--panel); border: 1px solid var(--border); padding: 8px 12px; margin: 6px 0; }
+.hits .src { font: .95rem var(--font-nav); }
+.hits mark { background: var(--hl); padding: 0 1px; }
+.hits .kwic { font-family: "Junicode", Georgia, serif; }
